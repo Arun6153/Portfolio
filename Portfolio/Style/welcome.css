@@ -1,0 +1,61 @@
+body{
+	background-image: url(../Media/welcome.jpeg);
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100vw;
+}
+.fly{
+	list-style: none;
+	position: absolute;
+	left: 52%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-70%);
+}
+.fly a{
+	display: inline-block;
+	margin-right: 50px;
+	color: black;
+	font-family: Open Sans,Arial;
+	font-size: 3vw;
+	font-weight: 300;
+	transition: 2s;
+	opacity: 1;
+}
+
+}
+.fly a:nth-child(7){
+  margin-right: 3px;
+}
+
+ .fly.hidden a:nth-child(1) {transform: translate(-200px,-200px);opacity: 0;}
+ .fly.hidden a:nth-child(2) {transform: translate(20px,100px);  opacity: 0;}
+ .fly.hidden a:nth-child(3) {transform: translate(-150px,-80px); opacity: 0;}
+ .fly.hidden a:nth-child(4) {transform: translate(10px,-200px);  opacity: 0;}
+ .fly.hidden a:nth-child(5) {transform: translate(-300px,-200px);opacity: 0;}
+ .fly.hidden a:nth-child(6) {transform: translate(20px,-20px);   opacity: 0;}
+ .fly.hidden a:nth-child(7) {transform: translate(30px,-200px);  opacity: 0;} 
+
+
+.but{
+	position: relative;
+	margin-top: 25%;
+	left: 34%;
+
+}
+
+button{
+	color: white;
+	font-weight: 8px;
+  border-color: cyan;
+  padding: 14px 24px;
+  background-color: rgba(0,0,0,0.5);
+  transition: 1s;
+  border-radius: 20px;
+}
+button:hover{
+	transition: 0.5s;
+    background-color: black;
+    transform: scale(1.1);
+}

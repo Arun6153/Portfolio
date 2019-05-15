@@ -1,0 +1,214 @@
+body{
+  font-family: 'Comfortaa', cursive;
+  margin: 0;
+  overflow-x:hidden;
+  background-color: black;
+}
+.headerPart{
+  position: sticky;
+  overflow: hidden;
+  margin: 0;
+  padding: 14px 100px;
+  width: 100%;
+  display: flex;
+  margin-left: -80px;
+  justify-content: center;
+  background: black;
+  text-align: center;
+  top: 0;
+  position: fixed;
+}
+.h1
+{
+  text-decoration: none;
+  display: block;
+  position: relative;
+  padding: 5px;
+  font-size: 18px;
+  color:white;
+  transition: 0.5s;
+  white-space: 10px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+ul li
+{
+  list-style: none;
+  margin: 0 20px;
+  transition: 0.5s;
+}
+ul:hover li a{
+  transform: scale(1.5);
+  opacity: 0.5;
+  filter: blur(5px);
+}
+ul li a:hover{
+  transform: scale(1.3);
+  opacity: 1;
+  filter: blur(0);
+  color: cyan;
+}
+ul li a:before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100;
+  height: 100;
+  overflow: hidden;
+}
+.head2{
+  padding: 40px 100px;
+  width: 100%;
+  margin-top: 8vw;
+  background-color: cyan;
+  color: black;
+  margin-top: 55px;
+  font-size: 40px;
+  text-align: left;
+  position: absolute;
+}
+.parallax {
+  background-image: url(../Media/img1.jpg);
+  min-height: 837px; 
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head-ab{
+  align-content: right;
+  justify-content: right;
+  height: 30vh;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+ }
+ .head-ab video{
+  margin-top: -26.5px;
+  height: 130vh;
+  width: 100%;
+ }
+.head-sdw{
+  padding: 150px 100px;
+  margin-top: 78vh;
+  position: absolute;
+  width: 100%;
+  height: 40vh;
+  
+}
+.head-sdw a
+{
+  position: relative;
+  margin-left:36%;
+  margin-top: 5%;
+  font-size:12vw;
+  color: black;
+  transition: 0.6s;
+}
+.head-sdw a:hover{
+  color:red;
+  transition: 0.6s;
+}
+.contact-in{
+  width: 100%;
+  margin: 0;
+  margin-top: 705vh;
+  background-image:url(../Media/Capture.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: absolute;
+  height: 100%;
+}
+.contact{
+  width: 100%;
+  margin-top: 705vh;
+  position: absolute;
+}
+.box-form{
+  border:3px solid black;
+  background-color: black;
+  }
+.input{
+  width:35%;
+  padding:25px;
+  position: absolute;
+  margin-left: 57%;
+  margin-bottom:12%;
+  overflow:hidden;
+  background-color: black;
+}
+input[type=text],[type=email], select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: rgba(46, 97, 132, 0.5) !important;
+  
+}
+textarea{
+  padding:8px 20px;
+  margin: 8px 0;
+  font-size: 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+ background-color: rgba(46, 97, 132, 0.5) !important;
+  box-sizing: border-box;
+  text-align: left;
+}
+.submit1{
+  padding: 10px 16px;
+  border:none;
+  border-radius: 3px; 
+  background-color: #1d4482; 
+  color: white;
+  transition: 0.5s;
+}
+.submit1:hover
+{
+  color: black;
+  background:cyan;
+  transition: 0.5s;
+}
+.reset1{
+  background: none;
+  padding:8px 16px;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: grey;
+}
+.reset1:hover{
+  transition: 0.5s;
+ border-color: cyan;
+ color:cyan;
+}
+.foot-main-div h4{
+  color: grey;
+  transition: 0.5s;
+}
+.foot-main-div h4:hover{
+  color: cyan;
+  transition: 0.5s;
+}
+.head-r h2{
+margin-top: 20%;
+}
+.head-r h2 a{
+text-decoration: none;
+color: white;
+transition: 0.5s;
+}
+.head-r h2:hover{color: black;
+  transition: 0.5s;}
+.head-r h2 a:hover{
+  transform: scale(0.95);
+  color: black;
+  transition: 0.5s;
+  
+}

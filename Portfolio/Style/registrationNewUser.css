@@ -1,0 +1,48 @@
+body{
+	width: 100%;
+	background-image:url("blur.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+	color: white;
+	overflow:hidden;
+	font-size: 16px;
+}
+.new{
+	position: absolute;
+	width: 400px;
+	height: 90%;
+	justify-content:center;
+	left:35%;top:7%;
+
+}
+form{
+  position: relative;
+  border:2px solid;
+  border-color:black;
+  padding: 16px 24px;
+  border-radius:7px ; 
+  width: 100%;
+  background-color:rgba(0,0,0,0.5);
+}
+.form-control{
+	background-color:rgba(0,0,0,0.5);
+	border-color: black;
+}
+footer{
+	position:absolute;
+	padding: 3vh 100%;
+	bottom: 0;
+	left:0;
+	background-color:#37b2ef;
+    overflow:hidden;
+}
+.b{
+	width: 10%;
+	position: relative;
+	margin-top: 10%;
+	left: 5%;
+	border-bottom: 2px solid;
+	border-bottom-width: 20px;
+	border-color: #37b2ef;
+}

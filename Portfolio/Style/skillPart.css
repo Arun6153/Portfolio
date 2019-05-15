@@ -1,0 +1,70 @@
+.skillP{
+  position: absolute;
+  width: 100%;
+  margin-top: 565vh;
+  height: 140vh;
+}
+li{
+  list-style-type: none;
+}
+
+.skills{
+  width: 500px;
+  height: 60%;
+  margin:60px auto;
+  color:white;
+}
+.skills li{
+  overflow: hidden;
+  margin:20px 40px;
+}
+.bar{
+  background:  #353b48;
+  display: block;
+  height: 0.3vw;
+  width: auto;
+  border:1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+  height: 0.3vw;
+  float: left;
+  background:cyan;
+}
+.html {width: 90%;animation: html 2s }
+.css {width: 90%;animation: css 2s}
+.js {width: 5%; animation: js 2s}
+.c {width: 85%; animation: c 2s}
+.cc {width: 90%;animation: cc 2s}
+.python {width: 20%;animation: python 2s}
+.svp {width: 95%; animation: svp 2s}
+.java {width: 70%;animation: java 2s}
+
+@keyframes html{
+  0%{width: 0%;}
+  100%{width: 90%;}
+}
+@keyframes css{
+  0%{width: 0%;}
+  100%{width: 90%;}
+}@keyframes js{
+  0%{width: 0%;}
+  100%{width: 5%;}
+}@keyframes c{
+  0%{width: 0%;}
+  100%{width: 85%;}
+}@keyframes cc{
+  0%{width: 0%;}
+  100%{width: 90%;}
+}@keyframes python{
+  0%{width: 0%;}
+  100%{width: 20%;}
+}@keyframes svp{
+  0%{width: 0%;}
+  100%{width: 95%;}
+}@keyframes java{
+  0%{width: 0%;}
+  100%{width: 70%;}
+}

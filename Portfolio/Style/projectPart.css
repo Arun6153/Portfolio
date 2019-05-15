@@ -1,0 +1,28 @@
+.head{
+    height: 400vh;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    margin-top: 165vh;
+}
+.head-t{
+  width: 50%;background-color: bisque;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 30px;
+  margin:0!important;
+}
+.head-r{
+  width: 50%;
+  color: white;
+}
+.head-r div{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}

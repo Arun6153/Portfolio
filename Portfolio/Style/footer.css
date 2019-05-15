@@ -1,0 +1,56 @@
+.foot-main-div{
+	margin-top: 805vh;
+	height: 30vh;
+	position: absolute;
+	width:100%;
+}
+.footer-social-icons{
+	padding: 20px ;
+	word-spacing: 55px;
+	margin-left: 5.3%;
+}
+.border-footer{
+position: relative;
+width: 45%;
+margin-left: 27%;
+margin-top: 4%;
+transition: 0.5s;
+}
+.border-footer:hover{
+ border-color: cyan;
+ transition: 1s;
+ border-radius: 50px;
+ border-style:solid;
+ border-width: 1.5px;
+
+ margin-top: 3%;
+ margin-left: 26.8%;
+}
+.tb{
+font-size: 20px;
+color: cyan;
+}
+.tb:hover{
+	transition: 0.5s;
+}
+.aa:hover{
+	color:#1689b7;
+}
+.ab:hover{
+	color:#930b42;
+}
+.ac:hover{
+	color:#e01a21;
+}
+.ad:hover{
+	color:white;
+}
+.ae:hover{
+	color:#185dcc;
+}
+.af:hover{
+	color:#185dcc;
+}
+.ag:hover{
+	color:red;
+}
